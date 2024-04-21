@@ -1,0 +1,41 @@
+body {
+    font-family: 'Luxora', sans-serif;
+    background-color: #f5f1b9;
+}
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: #99d6e9!important;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif; /* Changed 'bold' to 'sans-serif' */
+    font-size: 2rem;
+    color: #5f6368!important;
+}
+
+.nav-link {
+    color: #5f6368!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+.my-info {
+    padding: 2rem 4.5rem;
+}
+
+.btn-info {
+    padding: 0.77rem 1.3rem; /* Consolidated padding */
+    background-color: rgb(150, 194, 235)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    transition: all 0.3s;
+}
+
+.btn-info:hover {
+    background-color: rgb(127, 175, 197)!important;
+}

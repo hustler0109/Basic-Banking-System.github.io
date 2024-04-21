@@ -1,0 +1,87 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Montserrat;
+    background-color: #71b8f1;
+        height: 100%;
+        width: 100%;
+        touch-action: none;
+        cursor: pointer;
+    }
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #99d6e9;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #5f6368;
+}
+
+.navbar-nav .nav-link {
+    color: #5f6368;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f3f1f1;
+}
+
+/* Main Content Styles */
+.container {
+    padding-top: 50px; /* Adjusted padding for better spacing */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    flex: 0 0 50%; /* Changed width to 50% for better layout */
+    max-width: 50%;
+    padding: 0 15px; /* Adjusted padding for better spacing */
+    box-sizing: border-box;
+}
+
+.about-section {
+    background-color: #355070;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center; /* Center align text in image column */
+}
+
+.hero-img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
